@@ -1,0 +1,25 @@
+.byl-section {
+  margin-top: 32px;
+}
+
+.byl-title {
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+
+.byl-title span {
+  color: #1e3a8a; /* matches your navbar */
+}
+
+.byl-loading,
+.byl-error,
+.byl-empty {
+  opacity: 0.85;
+  padding: 10px 0;
+}
+
+.byl-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
+}

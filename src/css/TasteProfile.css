@@ -1,0 +1,61 @@
+.taste-profile {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.taste-profile h1 {
+  margin-bottom: 20px;
+}
+
+.taste-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 14px;
+  margin-bottom: 30px;
+}
+
+.taste-stat {
+  background: #f9fafb;
+  padding: 18px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.stat-title {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.stat-value {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+section {
+  margin-bottom: 28px;
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pill {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  font-size: 14px;
+}
+
+.taste-movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
+}
+
+.taste-empty {
+  text-align: center;
+  padding: 40px;
+}
